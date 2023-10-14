@@ -1,0 +1,103 @@
+.account-shopping-details-section{
+    flex: 1fr;
+    display: flex;
+    flex-direction: row;
+}
+
+.account-section{
+    flex: 1fr;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    border: none;
+    color: white;
+    }
+
+.account-section:hover{
+    border: 1px solid white;
+
+}
+
+.greating-sign-in{
+    flex: 1fr;
+}
+
+.account-list{
+    flex: 1fr;
+}
+
+.account-placeholder{
+    font-weight: bolder;
+}
+
+.account-list #signin{
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+
+.return-order-section{
+    flex: 1fr;
+}
+
+.return-order-buttion{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.return-order-buttion:hover{
+    border: 1px solid white;
+}
+.returns{
+    flex: 1fr;
+}
+
+.orders{
+    flex: 1fr;
+    font-weight: bolder;
+}
+
+
+.order-list{
+    flex: 1fr;
+    position: relative;;
+}
+
+.order-list-button{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.order-list-button:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.shopping-trolley{
+    flex: 1fr;
+    width: 40px;
+}
+
+.chart{
+    flex: 1fr;
+    margin-top: 18px;
+    font-weight: bold;
+}
+
+.number-orders{
+    position: absolute;
+    right: 20px;
+    top: 2px;
+    font-weight: bolder;
+    font-size: large;
+    color: orange;
+
+}

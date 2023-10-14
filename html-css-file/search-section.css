@@ -1,0 +1,55 @@
+.search-section{
+    flex: 4fr;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.search-section:hover{
+    border: 1px solid rgb(214, 157, 12);
+}
+
+.search-flitter-item{
+    flex: 1fr;
+}
+
+.select-flitter{
+    /*background-color: rgb(19, 25, 33);
+    color: white;*/
+    padding-top: 8.9px;
+    padding-bottom: 10.4px;
+    margin-right: -2px;
+    border: none;
+
+}
+
+
+.actual-search-part-section{
+    flex: 3fr;
+}
+
+.search-part{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 370px;
+    border: none;
+}
+
+
+.search-icon-section{
+    flex: 1fr;
+}
+
+.search-icon-section button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: -2px;
+    border: none;
+}
+
+.search-icon{
+    width: 10px;
+
+}

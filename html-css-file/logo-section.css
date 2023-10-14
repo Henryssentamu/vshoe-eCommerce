@@ -1,0 +1,66 @@
+.logo-section{
+    flex: 1fr;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.logo{
+    flex: 1fr;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.logo:hover{
+    border: 1px solid white;
+    cursor: pointer;
+    transition: 1ms;
+}
+
+.delivery-selection{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    border: none;
+    color: white;
+
+}
+
+.delivery-icon-section{
+    flex: 30px;
+}
+
+.location-icon{
+    width: 30px;
+    margin-top: 6px;
+    margin-left: 5px;
+}
+
+.delivery-selection:hover{
+    border: 1px solid white;
+}
+
+.delivery-details{
+    flex: 1fr;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.delivery-header{
+    flex: 1fr;
+}
+
+.select-area{
+    flex: 1fr;
+}
+
+.select-flame{
+    background-color: rgb(19, 25, 33);
+    color: white;
+    border: none;
+}

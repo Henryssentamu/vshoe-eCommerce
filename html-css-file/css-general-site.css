@@ -1,0 +1,30 @@
+.main-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-section{
+    flex: 1fr;
+    height: 60px;
+    position: fixed;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    /*justify-content: center;*/
+    background-color: rgb(19, 25, 33);
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-container{
+    flex: 4fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    background-color: rgba(240, 248, 255, 0.987);
+}
