@@ -94,8 +94,8 @@
 
 .number-orders{
     position: absolute;
-    right: 20px;
-    top: 2px;
+    right: 50px;
+    top: -2px;
     font-weight: bolder;
     font-size: large;
     color: orange;
