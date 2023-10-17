@@ -22,7 +22,7 @@ maleshoeData.forEach((product) =>{
 
                     <div class="qantity-section">
 
-                        <select class="qantity-selection">
+                        <select class="qantity-selection js-qantity-selection-${product.id}">
                             <label for="qantity"></label>
                             <option value="1" class="qantity">1</option>
                             <option value="2" class="qantity">2</option>
@@ -43,7 +43,7 @@ maleshoeData.forEach((product) =>{
 
             </div>
             <div class="add-order-to-list">
-                <button class="add-to-chart-button">
+                <button class="add-to-chart-button" data-product-id = "${product.id}">
                     Add
                 </button>
             </div>
@@ -54,4 +54,6 @@ maleshoeData.forEach((product) =>{
 
 document.querySelector(".main-container")
     .innerHTML = generatedHtml
+
+
 
