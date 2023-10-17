@@ -1,6 +1,6 @@
 const maleshoeData = [
     {
-        id: "v1",
+        id: "v1",ls
         image:"../pictures/518pqQTptyL._AC_UY575_.jpg",
         name:"Under Armour Women's Surge 3 Running Shoe",
         price:10343
