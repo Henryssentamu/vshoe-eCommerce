@@ -1,0 +1,54 @@
+/* main css for the html file of the added product */
+
+.main-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-orded{
+    flex: 1fr;
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    position: fixed;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    border-bottom: 1px solid rgb(205, 200, 200);
+    z-index: 200px;
+    background-color: white;
+}
+
+.logo-section{
+    flex: 1fr;
+    font-size: 26px;
+    font-weight: bold;
+    color: rgb(19, 25, 33);
+}
+
+.goback-home-link{
+   text-decoration-color: rgb(19, 25, 33);;
+   text-decoration: none;
+}
+
+.content-section{
+    flex: 4fr;
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 70px;
+}
+
+.product-details{
+    flex: 1fr;
+    
+}
+
+.payments-section{
+    flex: 1fr;
+}
+
+
+
+
