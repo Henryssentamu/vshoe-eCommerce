@@ -43,6 +43,7 @@ maleshoeData.forEach((product) =>{
 
             </div>
             <div class="add-order-to-list">
+                <div class="add-to-chart-update  js-added-chart-${product.id}"> </div>
                 <button class="add-to-chart-button" data-product-id = "${product.id}">
                     Add
                 </button>
