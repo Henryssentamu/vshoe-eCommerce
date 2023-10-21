@@ -49,6 +49,15 @@
 
 .add-order-to-list{
     flex: 1fr;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-to-chart-update{
+    flex: 1fr;
+    color: green;
+    font-weight: bolder;
 }
 
 .qantity-section{

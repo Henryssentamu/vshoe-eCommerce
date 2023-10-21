@@ -1,0 +1,56 @@
+.order-outlay{
+    display:  flex;
+    flex-direction: row;
+    column-gap: 25px;
+    align-content: center;
+    margin-bottom: 65px;
+    
+}
+
+.product-image-section{
+    flex: 1fr;
+
+}
+
+.product-img{
+   
+    width: 150px;
+}
+
+/* sub css for the html file of the added product*/
+
+
+.actual-detail{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    width: 300px;
+}
+
+.name{
+    flex: 1fr;
+    font-weight: bold;
+}
+
+.other-details{
+    flex: 1fr;
+    display: flex;
+    flex-direction: row;
+    column-gap: 25px;
+}
+
+.unit-price{
+    flex: 1fr;
+}
+
+.qantity{
+    flex: 1fr;
+}
+
+.price{
+    flex: 1fr;
+}
+
+.update-qantity{
+    flex: 1fr;
+}
